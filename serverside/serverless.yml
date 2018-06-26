@@ -26,3 +26,12 @@ iamRoleStatements:
       - dynamodb:UpdateItem
       - dynamodb:DeleteItem
     Resource: "arn:aws:dynamodb:ap-northeast-2:*:*"
+
+functions:
+  create:
+    handler: src/create.main
+    events:
+      - http:
+          path: memos
+          method: post
+          cors: true

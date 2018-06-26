@@ -1,0 +1,12 @@
+{
+    "body": {
+        "userId" : "MEMO-USER-1",
+        "title" : "Memo Title",
+        "content" : "Memo content"
+    },
+    "requestContext": {
+        "identity": {
+
+        }
+    }
+}
