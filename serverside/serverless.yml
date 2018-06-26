@@ -56,3 +56,10 @@ functions:
           path: memos/{userId}/{memoId}
           method: put
           cors: true
+  delete:
+    handler: src/delete.main
+    events:
+      - http:
+          path: memos/{userId}/{memoId}
+          method: delete
+          cors: true
