@@ -1,0 +1,1 @@
+export const verifyJSON = body => typeof body === 'object' ? body : JSON.parse(body);
