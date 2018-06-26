@@ -1,0 +1,11 @@
+{
+    "pathParameters": {
+        "userId" : "MEMO-USER-1",
+        "memoId": "273a78b0-7953-11e8-ab77-dfbc85a4dcd9"
+    },
+    "requestContext": {
+        "identity": {
+
+        }
+    }
+}
