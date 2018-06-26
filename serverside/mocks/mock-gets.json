@@ -1,0 +1,10 @@
+{
+    "pathParameters": {
+        "userId" : "MEMO-USER-1"
+    },
+    "requestContext": {
+        "identity": {
+
+        }
+    }
+}

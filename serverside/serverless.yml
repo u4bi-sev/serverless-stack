@@ -42,3 +42,10 @@ functions:
           path: memos/{userId}/{memoId}
           method: get
           cors: true
+  gets:
+    handler: src/gets.main
+    events:
+      - http:
+          path: memos/{userId}
+          method: get
+          cors: true
